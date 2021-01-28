@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4">
+
+    <View
+        android:id="@+id/view_1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/purple_200" />
+
+    <View
+        android:id="@+id/view_2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view_1"
+        android:background="@color/teal_200" />
+
+    <View
+        android:id="@+id/view_3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignTop="@id/view_2"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="-25dp"
+        android:background="@color/cardview_dark_background" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/view_1"
+        android:layout_alignTop="@id/view_1"
+        android:layout_alignEnd="@id/view_1"
+        android:layout_alignBottom="@id/view_1"
+        android:layout_marginBottom="25dp"
+        android:gravity="center"
+        android:text="App Name" />
+
+    <TextView
+        android:id="@+id/tv_biodata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/view_2"
+        android:layout_marginTop="25dp"
+        android:paddingHorizontal="20dp"
+        android:paddingTop="20dp"
+        android:text="Biodata"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_biodata"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:text="Nama :" />
+
+    <TextView
+        android:id="@+id/tv_jeniskelamin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_nama"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:text="Jenis kelamin :" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/tv_nama"
+        android:layout_alignBottom="@id/tv_nama"
+        android:layout_toEndOf="@+id/tv_nama"
+        android:text="Charles" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/tv_jeniskelamin"
+        android:layout_alignBottom="@id/tv_jeniskelamin"
+        android:layout_toEndOf="@+id/tv_jeniskelamin"
+        android:text="laki-laki" />
+
+</RelativeLayout>

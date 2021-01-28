@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThirdActivity">
+
+    <TextView
+        android:id="@+id/tv_judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="JUDUL"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/tv_biodata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_judul"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="100dp"
+        android:text="Biodata"
+        android:textSize="20dp" />
+
+    <TextView
+
+        android:id="@+id/tv_nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_biodata"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="100dp"
+        android:text="Nama :"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/tv_charles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_biodata"
+        android:layout_alignTop="@id/tv_nama"
+        android:layout_alignBottom="@+id/tv_nama"
+        android:layout_toRightOf="@+id/tv_nama"
+        android:gravity="center"
+        android:text="Charles" />
+
+
+</RelativeLayout>
