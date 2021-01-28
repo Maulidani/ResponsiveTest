@@ -5,7 +5,8 @@
     android:id="@+id/tosecon"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context="com.example.responsivetest.MainActivity">
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -23,18 +24,22 @@
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
             android:gravity="center"
-            android:text="Login"
-            android:textSize="30dp" />
+            android:text="@string/login"
+            android:textSize="30sp" />
 
         <EditText
+            android:hint="@string/nama"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Username" />
+            android:autofillHints="@string/nama"
+            android:inputType="text" />
 
         <EditText
+            android:inputType="textPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Password" />
+            android:hint="@string/password"
+            android:autofillHints="@string/password" />
 
         <Button
 
@@ -43,7 +48,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
-            android:text="Login   >" />
+            android:text="@string/login" />
 
     </LinearLayout>
 

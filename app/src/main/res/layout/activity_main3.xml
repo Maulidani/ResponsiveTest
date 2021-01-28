@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ThirdActivity">
+    tools:context="com.example.responsivetest.MainActivity3">
 
     <TextView
         android:id="@+id/tv_judul"
@@ -11,8 +11,8 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="100dp"
-        android:text="JUDUL"
-        android:textSize="30dp" />
+        android:text="@string/judul"
+        android:textSize="30sp" />
 
     <TextView
         android:id="@+id/tv_biodata"
@@ -21,8 +21,8 @@
         android:layout_below="@+id/tv_judul"
         android:layout_marginStart="20dp"
         android:layout_marginTop="100dp"
-        android:text="Biodata"
-        android:textSize="20dp" />
+        android:text="@string/biodata"
+        android:textSize="20sp" />
 
     <TextView
 
@@ -32,8 +32,8 @@
         android:layout_below="@+id/tv_biodata"
         android:layout_marginStart="50dp"
         android:layout_marginTop="100dp"
-        android:text="Nama :"
-        android:textSize="40dp" />
+        android:text="@string/nama"
+        android:textSize="40sp" />
 
     <TextView
         android:id="@+id/tv_charles"
@@ -42,9 +42,9 @@
         android:layout_below="@+id/tv_biodata"
         android:layout_alignTop="@id/tv_nama"
         android:layout_alignBottom="@+id/tv_nama"
-        android:layout_toRightOf="@+id/tv_nama"
+        android:layout_toEndOf="@+id/tv_nama"
         android:gravity="center"
-        android:text="Charles" />
+        android:text="@string/charles" />
 
 
 </RelativeLayout>

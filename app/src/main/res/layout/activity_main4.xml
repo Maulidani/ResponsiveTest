@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity4">
+    tools:context="com.example.responsivetest.MainActivity4">
 
     <View
         android:id="@+id/view_1"
@@ -36,7 +36,7 @@
         android:layout_alignBottom="@id/view_1"
         android:layout_marginBottom="25dp"
         android:gravity="center"
-        android:text="App Name" />
+        android:text="@string/app_name" />
 
     <TextView
         android:id="@+id/tv_biodata"
@@ -46,7 +46,7 @@
         android:layout_marginTop="25dp"
         android:paddingHorizontal="20dp"
         android:paddingTop="20dp"
-        android:text="Biodata"
+        android:text="@string/biodata"
         android:textSize="20sp" />
 
     <TextView
@@ -56,7 +56,7 @@
         android:layout_below="@+id/tv_biodata"
         android:layout_marginStart="50dp"
         android:layout_marginTop="20dp"
-        android:text="Nama :" />
+        android:text="@string/nama" />
 
     <TextView
         android:id="@+id/tv_jeniskelamin"
@@ -65,7 +65,7 @@
         android:layout_below="@+id/tv_nama"
         android:layout_marginStart="50dp"
         android:layout_marginTop="10dp"
-        android:text="Jenis kelamin :" />
+        android:text="@string/jenis_kelamin" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -73,7 +73,7 @@
         android:layout_alignTop="@+id/tv_nama"
         android:layout_alignBottom="@id/tv_nama"
         android:layout_toEndOf="@+id/tv_nama"
-        android:text="Charles" />
+        android:text="@string/charles" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -81,6 +81,6 @@
         android:layout_alignTop="@+id/tv_jeniskelamin"
         android:layout_alignBottom="@id/tv_jeniskelamin"
         android:layout_toEndOf="@+id/tv_jeniskelamin"
-        android:text="laki-laki" />
+        android:text="@string/laki_laki" />
 
 </RelativeLayout>

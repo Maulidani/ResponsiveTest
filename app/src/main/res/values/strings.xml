@@ -1,5 +1,12 @@
 <resources>
-    <string name="app_name">ResppnsiveTest</string>
+    <string name="app_name">ResponsiveTest</string>
     <string name="login">login</string>
     <string name="todo">TODO</string>
+    <string name="biodata">Biodata</string>
+    <string name="nama">Nama :</string>
+    <string name="charles">Charles</string>
+    <string name="judul">JUDUL</string>
+    <string name="jenis_kelamin">Jenis kelamin :</string>
+    <string name="laki_laki">laki-laki</string>
+    <string name="password">Password</string>
 </resources>

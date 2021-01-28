@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SecondActivity">
+    tools:context="com.example.responsivetest.MainActivity2">
 
     <View
         android:id="@+id/background"
@@ -12,7 +12,7 @@
         android:layout_centerInParent="true"
         android:layout_marginHorizontal="100dp"
         android:layout_marginVertical="200dp"
-        android:background="@color/black" />
+        android:background="@color/cardview_dark_background" />
 
     <Button
         android:layout_width="match_parent"
